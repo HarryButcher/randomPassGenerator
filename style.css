@@ -1,0 +1,82 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.title, .subtitle {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    margin: 2rem;
+}
+
+.subtitle {
+    margin: 2rem;
+    font-weight: 400;
+}
+
+#generator {
+    width: 60%;
+    margin: 0 auto;
+    min-height: 20vh;
+    border-radius: 15px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#password {
+    width: 50%;
+    min-width: 10em;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin: 0 auto;
+}
+
+#form {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#selector {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.buttons {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    width: 10em;
+    margin: 2rem;
+    padding: 1em;
+    border-radius: 15px;
+    border: none;
+    font-size: 1em;
+    
+}
+
+#submitButton {
+    background-color: #98eb6c;
+}
+
+#copyButton {
+    background-color: #ebeb00
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button:active {
+    transform: scale(1.1);
+}

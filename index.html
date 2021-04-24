@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Random Password Generator</h1>
+    <h2 class="subtitle">Using the same password for everything? Generate a fresh password for yourself every time.</h2>
+
+    <div id="generator">
+        <form action="/" id="form">
+            <section id="selector">
+            <label for="length">Password Length</label>
+                <select name="length" id="length">
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                </select>
+            </section>
+            <p id="password">Password</p>
+            <section class="buttons">
+                <button class="button" id="copyButton">Copy to clipboard</button>
+                <button class="button" id="submitButton">Generate!</button>
+            </section>
+        </form>
+        
+    </div>
+    
+    <script src="randomPassword.js"></script>
+</body>
+</html>
